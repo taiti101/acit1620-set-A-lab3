@@ -1,0 +1,88 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+form {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+form button {
+    display: block;
+    padding: 0.5rem 1rem;
+    background: hsl(120, 56%, 40%);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    width: 5rem;
+    margin-left: auto;
+}
+
+/* HEADER STYLES */
+header {
+    background-color: teal;
+    color: black; 
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: teal;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+aside {
+    list-style-type: none;
+    margin: 0;
+    border: 0;
+}
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    float: left;
+    padding: 0;
+    margin-right: 20px;
+}
+
+li {
+    margin-bottom: 20px;
+    text-decoration-color: teal;
+}
+
+li:hover {
+    background-color: teal;
+}
+
+a {
+    text-decoration: none;
+}
+
+content {
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.content p {
+    font-size: 14px;
+}
